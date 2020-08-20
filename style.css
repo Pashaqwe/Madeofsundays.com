@@ -1,0 +1,1031 @@
+html, body {
+  margin: 0;
+  background-color: #fdfcf8;
+}
+
+
+.centralContainer {
+  max-width: 1450px;
+  margin: 0 auto;
+  background-color: #fdfcf8;
+}
+
+/* Панель скидки */
+.discountCodePanel {
+  color: #9ED7D3;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.discountCodePanel a {
+  color: #9ED7D3;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Brandon Grotesque Bold";
+  margin-top: 2px;
+}
+
+.discountCodePanel p {
+  text-align: center;
+  margin: 10px 2px;
+  font-family: "Brandon Grotesque Bold";
+}
+
+.promoOffer {
+  background-color: #fec800;
+  border-radius: 4px;
+  color: black;
+  padding: 0 5px;
+}
+
+.promoOfferCode {
+  color: #fec800;
+}
+
+/* info*/
+.info {
+  background-color: #2f2f2f;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  max-width: 1450px;
+  width: 100%;
+  height: 35px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f2f2f;
+}
+
+
+
+.headerLeft {
+  padding-left: 20px;
+  display: flex;
+}
+
+.headerRight {
+  padding-right: 20px;
+  display: flex;
+}
+
+.header a {
+  text-decoration: none;
+  padding:  10px;
+  color: #FFCCD3;
+  font-family: 'Brandon Grotesque Regular';
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.header a:hover {
+  opacity: 0.7;
+}
+
+.eng {
+  opacity: 0.7;
+}
+
+.currency {
+  list-style: none;
+}
+
+.currency {
+  background-color: white;
+  width: 80px;
+  height: 90%;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.logoSearch {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 144px;
+  height: 35px;
+  margin-left: 30px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.searchAndButton {
+  display: flex;
+  margin-left: 13%;
+}
+
+.search {
+  width: 350px;
+  height: 45px;
+  padding: 8px 10px;
+  border: 2px solid #ede8df;
+  border-radius: 3px;
+}
+
+.search::placeholder {
+  color: #858585;
+  font-family: 'Brandon Grotesque Regular';
+  font-size: 16px;
+}
+
+.searchButton {
+  height: 45px;
+  width: 50px;
+  margin-left: 5px;
+  border: none;
+  background-color: #66ccc4;
+}
+
+.logoRightColumn {
+  display: flex;
+
+  width: 50%;
+}
+
+.bag {
+  width: 25px;
+  margin-right: 30px;
+  margin-top: 4px;
+}
+
+/* menu */
+.menu {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #ede8df;
+  border-bottom: 1px solid #ede8df;
+}
+
+.menuSelections {
+  padding-left: 20px;
+}
+
+.menuSelections a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 15px;
+  font-family: 'Brandon Grotesque Regular';
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.menuSelections a:hover {
+  color: #66ccc4;
+}
+
+.menuSelections svg {
+  height: 12px;
+  width: 12px;
+}
+
+.dropbtn {
+  background-color: #fdfcf8;
+  color: black;
+  border: none;
+  font-family: 'Brandon Grotesque Regular';
+font-weight: 600;
+letter-spacing: 2px;
+  font-size: 12px;
+  margin-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+
+  width: 150%;
+  z-index: 1;
+  box-shadow: 0 0 10px grey;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 7px 16px;
+  font-family: 'Brandon Grotesque Regular';
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: #66ccc4;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  ;
+}
+
+.dropdown:hover .dropbtn {
+  color: #66ccc4;
+}
+
+.dropbtnWall {
+  background-color: #fdfcf8;
+  color: black;
+  border: none;
+  font-family: 'Brandon Grotesque Regular';
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.dropdownWall {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownWall-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+
+  width: 550%;
+  z-index: 1;
+  box-shadow: 0 0 10px grey;
+}
+
+.dropdownWall-content a {
+  color: black;
+  padding: 5px 0;
+  font-family: 'Brandon Grotesque Regular';
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdownWall-content a:hover {
+  color: #66ccc4;
+}
+
+.dropdownWall:hover .dropdownWall-content {
+  display: flex;
+}
+
+.dropdownWall:hover .dropbtnWall {
+  color: #66ccc4;
+}
+
+.dropdownLeft {
+  padding-left: 15px;
+  width: 25%;
+}
+
+.dropdownSenter {
+  display: inline-block;
+  width: 25%;
+}
+
+.dropdownRight {
+  display: inline-block;
+  width: 25%;
+  margin-right: 20px;
+}
+
+.dropdownPictures {
+  width: 25%;
+}
+
+.dropdownPictures img {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.starSky {
+margin-left: 17px;
+}
+
+.dropdownWall h4 {
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f5f1eb;
+  font-family: "Brandon Grotesque Bold";
+}
+
+/*specialOffer*/
+.specialOffer {
+  display: flex;
+  background-image: url('Pictures/special.webp');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 630px;
+  background-size: 100% auto;
+  background-position: 50% 50%;
+}
+
+.specialOfferContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width:1024px) {
+.specialOffer {
+    height: 630px;
+    background-size: auto 630px;
+  }
+
+}
+.specialOfferContainer p {
+  font-size: 20px;
+  font-family: 'Brandon Grotesque Bold';
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.specialOfferContainer h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Oswald';
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 0 #C9E4E2;
+  margin-top: 20px;
+}
+
+.pecialOfferButtons button {
+  outline: none;
+  border-radius: 3px;
+  padding: 8px 30px;
+  border: 0;
+  font-size: 23px;
+  color: white;
+  font-family: 'Brandon Grotesque Bold';
+}
+
+.pecialOfferButtons button:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.pecialOfferButtonsLeft {
+  background-color: #f3a4af;
+  margin-right: 20px;
+}
+
+.pecialOfferButtonsRight {
+  background-color: #66ccc4;
+}
+@media (max-width:1024px) {
+  .specialOfferBottomRightColumn {
+    display: none;
+  }
+}
+.specialOfferBottomRightColumn{
+  font-family: 'Brandon Grotesque Regular';
+  font-size: 14px;
+  margin-right: 20px;
+}
+.specialOfferBottom {
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 5px 15px -5px #f4f3ef;
+}
+
+.specialOfferBottomCenterColumn {
+  margin: 16px 0;
+  border-left: 1px solid #ebe8e4;
+  border-right: 1px solid #ebe8e4;
+}
+
+@media (max-width:980px) {
+  .specialOfferBottomCenterColumn{
+    display: none;
+  }
+
+}
+.specialOfferBottomCenterColumn p {
+  margin-top: 0;
+}
+
+.specialOfferBottom p {
+  text-align: center;
+  font-family: 'Oswald';
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.specialOfferBottom a {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: 'Brandon Grotesque Regular';
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.specialOfferBottom a:hover {
+  text-decoration: none;
+}
+
+.specialOfferBottomLeftColumn {
+  color: black;
+  font-family: 'Brandon Grotesque Regular';
+  font-size: 14px;
+}
+
+.awesomePeople {
+  display: flex;
+  justify-content: center;
+}
+
+.yourDriems {
+  max-width: 1024px;
+  padding: 0 40px;
+  text-align: center;
+  font-family: 'Brandon Grotesque Regular';
+  font-size: 22px;
+}
+
+.yourDriemsContainer {
+  max-width: 960px;
+  margin: 5% auto;
+}
+
+.pleaseNote {
+  background-color: #c39ece;
+  width: 100%;
+  height: auto;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.pleaseNote a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Oswald';
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*MostPopularCategories*/
+.MostPopularCategories {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.MostPopularCategories a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.headingMostPopularCategories {
+  font-size: 26px;
+  font-family: 'Oswald';
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.MostPopularCategoriesTop {
+  display: flex;
+  height: 100%;
+}
+
+.MostPopularCategoriesBottom {
+  margin-top: 20px;
+  display: flex;
+  height: 100%;
+}
+
+.MostPopularCategories p {
+  margin-bottom: 0;
+  padding-top: 227px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: 'Brandon Grotesque Bold';
+  font-size: 26px;
+}
+
+.MostPopularCategoriesBlock {
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 32%;
+  height: 350px;
+  background-repeat: no-repeat;
+  margin-top: 25px;
+}
+
+@media (max-width:1024px) {
+.MostPopularCategoriesBlock  {
+  width: 40%;
+  flex-grow: 1;
+  margin: 20px 15px;
+}
+}
+
+@media (max-width:980px) {
+.MostPopularCategoriesBlock {
+  width: 90%;
+  flex-grow: 1;
+  margin: 20px 15px;
+}
+}
+
+.kids {
+  background-image: linear-gradient(to top, #dceeed 0%, transparent 50%), url(Pictures/Kids_Rooms_1024x1024.jpg);
+}
+
+.kids:hover {
+  background-image: linear-gradient(to top, #dceeed 0%, transparent 80%), url(Pictures/Kids_Rooms_1024x1024.jpg);
+}
+
+.grownup {
+  background-image: linear-gradient(to top, #dceeed 0%, transparent 50%), url(Pictures/Adult_1024x1024.jpg);
+}
+
+.grownup:hover {
+  background-image: linear-gradient(to top, #dceeed 0%, transparent 80%), url(Pictures/Adult_1024x1024.jpg);
+}
+
+.personalised {
+  background-image: linear-gradient(to top, #dceeed 0%, transparent 50%), url(Pictures/Personalised_1024x1024.jpg);
+}
+
+.personalised:hover {
+  background-image: linear-gradient(to top, #dceeed 0%, transparent 80%), url(Pictures/Personalised_1024x1024.jpg);
+}
+
+.watercolor {
+  background-image: linear-gradient(to top, #dceeed 0%, transparent 50%), url(Pictures/Watercolor_1024x1024.jpg);
+}
+
+.watercolor:hover {
+  background-image: linear-gradient(to top, #dceeed 0%, transparent 80%), url(Pictures/Watercolor_1024x1024.jpg);
+}
+
+.bundeleOffers {
+  background-image: linear-gradient(to top, #dceeed 0%, transparent 50%), url(Pictures/Themepacks_1024x1024.jpg);
+}
+
+.bundeleOffers:hover {
+  background-image: linear-gradient(to top, #dceeed 0%, transparent 80%), url(Pictures/Themepacks_1024x1024.jpg);
+}
+
+.brightAndBold {
+  background-image: linear-gradient(to top, #dceeed 0%, transparent 50%), url(Pictures/Bright-and-bold_1024x1024.jpg);
+}
+
+.brightAndBold:hover {
+  background-image: linear-gradient(to top, #dceeed 0%, transparent 80%), url(Pictures/Bright-and-bold_1024x1024.jpg);
+}
+
+/*bestCostumers*/
+h2 {
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 26px;
+}
+
+.stars {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.reviews { text-decoration: none;
+  cursor: pointer;
+  margin-top: 10px;
+display: flex;
+justify-content: center;
+  font-family: 'Brandon Grotesque Regular';
+  color: black;
+}
+
+.costumers {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.costumers p {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Brandon Grotesque Regular';
+}
+
+.costumers img {
+  display: flex;
+  margin: auto;
+}
+
+.costumersColumn {
+  background-color: #fff;
+  width: 15%;
+  padding: 30px 20px 0 20px;
+  border: 1px solid #f2eee7;
+}
+
+@media (max-width:1024px) {
+  .costumersColumnRight{
+    display: none;
+  }
+  .costumersBorderNone{
+    width: 40%
+  }
+  .costumersColumnLeft{
+    width: 40%;
+  }
+}
+
+@media (max-width:980px) {
+  .costumersBorderNone{
+    display: none;
+  }
+  .costumersColumnLeft{
+    width: 80%;
+  }
+}
+.costumersColumn a {
+  text-decoration: none;
+  color: black;
+}
+
+.dateMarginBottom {
+  margin-bottom: 10px;
+}
+
+.costumersBorderNone {
+  border-left: none;
+  border-right: none;
+}
+
+.marginTopRightColumn {
+  margin-top: 28px;
+}
+
+.authorMarginBottom {
+  color: #acacac;
+  margin-bottom: 0;
+}
+
+.dateMarginTop {
+  color: #acacac;
+  font-style: oblique;
+  margin-top: 0;
+}
+
+/*NEW PRODUCTS*/
+.newProducts h3 {
+  text-align: center;
+  font-size: 22px;
+  color: #303e4e;
+  font-family: 'Oswald';
+}
+
+.newProductsOffers {
+  text-align: center;
+  display: flex;
+}
+
+@media (max-width: 980px) {
+  .HiddenColumns{
+    display: none;
+  }
+}
+
+.newProductsOffers a {
+  text-decoration: none;
+  color: #303e4e;
+  font-size: 15px;
+}
+
+.newProductsOffer img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.newProductsOffer {
+  position: relative;
+  margin: 0 25px;
+}
+
+.nameProduct {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: 'Oswald';
+  font-size: 15px;
+}
+
+.priceProduct {
+  font-family: 'Brandon Grotesque Regular';
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.viewProduct {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 40%;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #66ccc4;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  font-size: 16px;
+  font-family: 'Brandon Grotesque Regular';
+  display: none;
+}
+
+.newProductsOffer:hover .viewProduct {
+  display: block;
+}
+
+/*blog of sundays*/
+.blogOfSundays {
+  display: flex;
+}
+
+@media (max-width:980px) {
+  .blogOfSundays {
+    display: flex;
+  flex-wrap:wrap;
+  width: auto;
+  }
+}
+
+.blogOfSundays img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blogOfSundaysColumns {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.blogOfSundaysDescription {
+  border: 1px solid #ebe8e4;
+  margin-top: -4px;
+  padding: 29px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.blogOfSundays a {
+  text-decoration: none;
+}
+
+.blogOfSundays h3 {
+  color: black;
+  font-size: 30px;
+  font-family: 'Brandon Grotesque Bold';
+  margin: 10px auto 0 auto;
+}
+
+.blogOfSundaysDescription {
+  font-family: 'Brandon Grotesque Regular';
+}
+
+.blogOfSundaysDescription p {
+  margin-bottom: 0;
+}
+
+.readMoreSundays {
+  color: #66ccc4;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.blogOfSundaysDate {
+  color: #ebe8e4;
+  font-style: oblique;
+}
+
+.instagram {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.instagram a {
+  font-size: 25px;
+  color: #ffd959;
+  font-family: 'Oswald';
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+.instagram p {
+  font-family: 'Brandon Grotesque Regular';
+  margin-top: 0;
+}
+
+/*specialOfferfFooter*/
+.specialOfferFooter {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fbe4ed;
+  margin-bottom: 50px;
+}
+
+.specialOfferFooterCenterColumn {
+  margin: 16px 0;
+  border-left: 1px solid #fcbfcb;
+  border-right: 1px solid #fcbfcb;
+}
+
+.specialOfferFooter p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.specialOfferFooter a {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: 'Brandon Grotesque Regular';
+  font-size: 14px;
+}
+
+.specialOfferFooterLeftColumn {
+  margin: 16px 0;
+}
+
+.specialOfferFooterRightColumn {
+  margin: 16px 0;
+}
+@media (max-width:1024px) {
+  .specialOfferFooterRightColumn {
+    display: none;
+  }
+}
+@media (max-width: 980px) {
+  .specialOfferFooterCenterColumn{
+    display: none;
+  }
+}
+
+.spacialOfferFontBold {
+  text-align: center;
+  font-family: 'Oswald';
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.spacialOfferFontRegular {
+  font-size: 14px;
+  font-family: 'Brandon Grotesque Regular';
+  margin: 0 auto;
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  margin-bottom: 50px;
+}
+.footerColumn {
+  display: flex;
+  flex-direction:column;
+  width: 20%;
+  padding-right: 40px;
+  padding-left: 10px;
+}
+@media (max-width:1024px) {
+  .footer{
+    flex-wrap: wrap;
+  }
+  .footerColumn{
+    flex-grow: 1;
+    flex-wrap: wrap;
+  }
+  .footerRightColumn{
+    flex-grow: 1;
+  }
+}
+@media (max-width:980px) {
+  .footer{
+    flex-wrap: wrap;
+  }
+  .footerColumn{
+    text-align: center;
+    width: 100%
+  }
+  .footerRightColumn{
+    width: 100%;
+  }
+}
+
+.footerHeading{
+  font-family: 'Brandon Grotesque Bold';
+  font-size: 11px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #f5f1ec;
+  margin-bottom: 0
+}
+
+.footerColumn a{
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: black;
+  padding: 5px 0;
+  font-size: 12px;
+  font-family: 'Brandon Grotesque Regular';
+}
+.footerColumn a:hover {
+  text-decoration: underline;
+}
+
+.footerRightColumn{
+  width: 40%;
+}
+
+.footerHeadingFontRegular {
+  font-size: 12px;
+  font-family:  'Brandon Grotesque Regular';
+}
+
+.ourStoryFont {
+  font-family:  'Brandon Grotesque Regular';
+  font-size: 16px;
+}
+
+.footerSearch {
+  height: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-grow: 1;
+}
+.footerSearchAndButton {
+  width: 78%;
+  height: 100%;
+  outline: none;
+  margin: 0;
+  padding-left: 10px;
+
+}
+
+.footerSearchAndButton::placeholder {
+color: #d2d6db;
+font-size: 16px;
+}
+
+.footerButton {
+  margin-left: 2%;
+  padding: 0;
+  height: 100%;
+  width: 100px;
+  background-color: #58bdaa;
+  color: white;
+  font-family: 'Brandon Grotesque Bold';
+  font-size: 20px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.footerButton:focus {
+  outline: none;
+}
